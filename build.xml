@@ -112,7 +112,7 @@
          description="Run unit tests with PHPUnit">
   <exec executable="cmd" resultproperty="result.phpunit" taskname="phpunit">
       <arg value="/c"/>
-    <arg value="phpunit.bat"/>
+    <arg value="phpunit"/>
    <arg value="--configuration"/>
    <arg path="${basedir}/build/phpunit.xml"/>
   </exec>
@@ -128,7 +128,7 @@
   
   <exec executable="cmd" failonerror="true" taskname="phpunit">
     <arg value="/c"/>
-    <arg value="phpunit.bat"/>
+    <arg value="phpunit"/>
    <arg value="--configuration"/>
    <arg path="${basedir}/build/phpunit.xml"/>
    <arg value="--no-coverage"/>
