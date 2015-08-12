@@ -17,14 +17,16 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
+          <root url="phar://$USER_HOME$/Bin/codecept.phar" />
+          <root url="phar://$USER_HOME$/Bin/go-pear.phar" />
           <root url="phar://$USER_HOME$/Bin/php/pharcommand.phar" />
           <root url="phar://$USER_HOME$/Bin/phpunit.phar" />
-          <root url="phar://$USER_HOME$/Bin/codecept.phar" />
         </CLASSES>
         <SOURCES>
+          <root url="phar://$USER_HOME$/Bin/codecept.phar" />
+          <root url="phar://$USER_HOME$/Bin/go-pear.phar" />
           <root url="phar://$USER_HOME$/Bin/php/pharcommand.phar" />
           <root url="phar://$USER_HOME$/Bin/phpunit.phar" />
-          <root url="phar://$USER_HOME$/Bin/codecept.phar" />
         </SOURCES>
       </library>
     </orderEntry>
