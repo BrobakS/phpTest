@@ -15,7 +15,6 @@
         "phpdocumentor/phpdocumentor": "v2.0.1",
         "mayflower/php-codebrowser": "1.0.*@dev",
         "pear/console_commandline": "dev-trunk",
-        "pear/log": "dev-master",
         "pear/pear_exception": "dev-master",
         "phing/phing": "2.6.1"
 	},
