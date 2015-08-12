@@ -7,12 +7,13 @@
  */
 
 namespace mySpace;
-require_once("../../src/JoomlaTest/Classes/MyClass.php");
+require_once("../src/JoomlaTest/Classes/MyClass.php");
 
 class MyClassTest extends \PHPUnit_Framework_TestCase
 {
 
     private $testSubject;
+	
 
     public function setUp(){
         $this->testSubject = new MyClass();
