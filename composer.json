@@ -7,7 +7,6 @@
 		"laravel/framework": "4.0.*",
 		"phpunit/phpunit": "3.7.*",
         "theseer/fxsl": "1.0.*@dev",
-        "theseer/phpdox": "0.5.*@dev",
         "squizlabs/php_codesniffer": "1.4.6",
         "phpmd/phpmd": "1.5.0",
         "h4cc/phpqatools": "1.1.0",
