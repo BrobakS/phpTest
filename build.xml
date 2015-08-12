@@ -52,9 +52,6 @@
     <antcall target="phpmd-ci"/>
    </sequential>
    <antcall target="lint"/>
-   <antcall target="phpcpd-ci"/>
-   <antcall target="phpcs-ci"/>
-   <antcall target="phploc-ci"/>
   </parallel>
  </target>
 
