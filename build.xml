@@ -125,7 +125,8 @@
 
   
   <exec executable="cmd" failonerror="true" taskname="phpunit">
-   <arg line="/c phpunit"/>
+    <arg value="/c"/>
+    <arg value="phpunit.bat"/>
    <arg value="--configuration"/>
    <arg path="${basedir}/build/phpunit.xml"/>
    <arg value="--no-coverage"/>
