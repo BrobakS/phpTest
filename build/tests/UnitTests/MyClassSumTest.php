@@ -7,7 +7,6 @@
  */
 
 namespace mySpace;
-//require_once(__DIR__."/../../../build/src/JoomlaTest/Classes/MyClass.php");
 
 class MyClassSumTest extends \PHPUnit_Framework_TestCase
 {
