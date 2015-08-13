@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="phpTest" tests="17" assertions="17" failures="0" errors="0" time="0.287359">
-    <testsuite name="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassDoubleTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.051176">
-      <testcase name="testDoubleWithTwoPositiveNumbers" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassDoubleTest.php" line="20" assertions="1" time="0.017048"/>
-      <testcase name="testDouble0" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassDoubleTest.php" line="30" assertions="1" time="0.017491"/>
-      <testcase name="testDoubleNegative" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassDoubleTest.php" line="40" assertions="1" time="0.016637"/>
+  <testsuite name="phpTest" tests="17" assertions="17" failures="0" errors="0" time="0.372857">
+    <testsuite name="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassDoubleTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.057687">
+      <testcase name="testDoubleWithTwoPositiveNumbers" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassDoubleTest.php" line="20" assertions="1" time="0.018452"/>
+      <testcase name="testDouble0" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassDoubleTest.php" line="30" assertions="1" time="0.018844"/>
+      <testcase name="testDoubleNegative" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassDoubleTest.php" line="40" assertions="1" time="0.020391"/>
     </testsuite>
-    <testsuite name="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassMultiplyTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.066213">
-      <testcase name="testMultiplyPositiveWithPositive" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassMultiplyTest.php" line="20" assertions="1" time="0.016007"/>
-      <testcase name="testMultiplyPositiveWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassMultiplyTest.php" line="31" assertions="1" time="0.016450"/>
-      <testcase name="testMultiplyZeroWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassMultiplyTest.php" line="42" assertions="1" time="0.016523"/>
-      <testcase name="testMultiplyPositiveWithNegative" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassMultiplyTest.php" line="53" assertions="1" time="0.017233"/>
+    <testsuite name="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassMultiplyTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.095544">
+      <testcase name="testMultiplyPositiveWithPositive" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassMultiplyTest.php" line="20" assertions="1" time="0.021548"/>
+      <testcase name="testMultiplyPositiveWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassMultiplyTest.php" line="31" assertions="1" time="0.023747"/>
+      <testcase name="testMultiplyZeroWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassMultiplyTest.php" line="42" assertions="1" time="0.027031"/>
+      <testcase name="testMultiplyPositiveWithNegative" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassMultiplyTest.php" line="53" assertions="1" time="0.023218"/>
     </testsuite>
-    <testsuite name="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassSumTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.083973">
-      <testcase name="testSum2Possitives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassSumTest.php" line="20" assertions="1" time="0.016996"/>
-      <testcase name="testSum0AndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassSumTest.php" line="31" assertions="1" time="0.016587"/>
-      <testcase name="testSumNegativeAndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassSumTest.php" line="42" assertions="1" time="0.017038"/>
-      <testcase name="testSum2Negatives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassSumTest.php" line="53" assertions="1" time="0.016829"/>
-      <testcase name="testSum2BigNumbers" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassSumTest.php" line="64" assertions="1" time="0.016523"/>
+    <testsuite name="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassSumTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.120935">
+      <testcase name="testSum2Possitives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassSumTest.php" line="20" assertions="1" time="0.022701"/>
+      <testcase name="testSum0AndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassSumTest.php" line="31" assertions="1" time="0.038012"/>
+      <testcase name="testSumNegativeAndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassSumTest.php" line="42" assertions="1" time="0.019581"/>
+      <testcase name="testSum2Negatives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassSumTest.php" line="53" assertions="1" time="0.021457"/>
+      <testcase name="testSum2BigNumbers" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassSumTest.php" line="64" assertions="1" time="0.019184"/>
     </testsuite>
-    <testsuite name="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.085997">
-      <testcase name="testHalfPostiveEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassTest.php" line="22" assertions="1" time="0.017093"/>
-      <testcase name="testHalf0" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassTest.php" line="33" assertions="1" time="0.018534"/>
-      <testcase name="testHalfPositiveUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassTest.php" line="44" assertions="1" time="0.017070"/>
-      <testcase name="testHalfNegativeEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassTest.php" line="55" assertions="1" time="0.016869"/>
-      <testcase name="testHalfNegativeUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\tests\UnitTests\MyClassTest.php" line="66" assertions="1" time="0.016431"/>
+    <testsuite name="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.098691">
+      <testcase name="testHalfPostiveEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassTest.php" line="22" assertions="1" time="0.019576"/>
+      <testcase name="testHalf0" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassTest.php" line="33" assertions="1" time="0.021650"/>
+      <testcase name="testHalfPositiveUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassTest.php" line="44" assertions="1" time="0.022067"/>
+      <testcase name="testHalfNegativeEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassTest.php" line="55" assertions="1" time="0.017154"/>
+      <testcase name="testHalfNegativeUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest2\build\tests\UnitTests\MyClassTest.php" line="66" assertions="1" time="0.018245"/>
     </testsuite>
   </testsuite>
 </testsuites>
