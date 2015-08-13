@@ -99,7 +99,7 @@
   <exec executable="${phploc}" taskname="phploc">
    <arg value="--count-tests" />
    <arg path="${basedir}/src" />
-   <arg path="${basedir}/Tests" />
+   <arg path="${basedir}/tests" />
   </exec>
 
   <property name="phploc.done" value="true"/>
@@ -119,22 +119,7 @@
   <property name="phpunit.done" value="true"/>
  </target>
 
- <target name="phpunit-no-coverage"
-         unless="phpunit.done"
-         depends="prepare"
-         description="Run unit tests with PHPUnit (without generating code coverage reports)">
 
-  
-  <exec executable="phpunit" failonerror="true" taskname="phpunit">
-   <arg value="--configuration"/>
-   <arg path="${basedir}/build/phpunit.xml"/>
-   <arg value="--no-coverage"/>
-   <arg value="--process-isolation"/>
-   
-  </exec>
-
-  <property name="phpunit.done" value="true"/>
- </target>
 
  <target name="-check-failure">
   <fail message="PHPUnit did not finish successfully">
