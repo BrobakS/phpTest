@@ -7,7 +7,7 @@
  */
 
 namespace mySpace;
-require_once(__DIR__."/../../src/JoomlaTest/Classes/MyClass.php");
+require_once(__DIR__."/../../../build/src/JoomlaTest/Classes/MyClass.php");
 
 class MyClassMultiplyTest extends \PHPUnit_Framework_TestCase
 {
