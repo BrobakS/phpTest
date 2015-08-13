@@ -27,7 +27,6 @@
   <testsuites>
     <testsuite name="phpTest">
       <directory suffix="Test.php">tests/UnitTests/</directory>
-	  <file>tests/UnitTests/MyClassDoubleTest.php</file>
     </testsuite>
   </testsuites>
 
