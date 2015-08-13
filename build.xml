@@ -128,6 +128,8 @@
    <arg value="--configuration"/>
    <arg path="${basedir}/build/phpunit.xml"/>
    <arg value="--no-coverage"/>
+   <arg value="--process-isolation"/>
+   
   </exec>
 
   <property name="phpunit.done" value="true"/>
