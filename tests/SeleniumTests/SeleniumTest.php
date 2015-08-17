@@ -17,24 +17,16 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
         array(
             "name" => "Chrome",
             "browserName" => "chrome",
-<<<<<<< HEAD
-        )
-=======
         ),
         array(
             "name" => "Internet Explorer",
             "browserName" => "internet explorer",
         ),
->>>>>>> 3f0b362416d86ca1551779cf618b6c7403d559ba
     );
 
     public function setUp(){
         parent::setUp();
-<<<<<<< HEAD
-        $this->setHost('home.brocode.dk');
-=======
         $this->setHost('localhost');
->>>>>>> 3f0b362416d86ca1551779cf618b6c7403d559ba
         $this->setPort(4444);
         $this->setBrowserUrl('http://localhost/JoomlaTest/');
         //$this->web_driver = new WebDriver();
@@ -56,11 +48,7 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
     public function testLogin1(){
 
         $this->url('index.php');
-<<<<<<< HEAD
-        $this->byCssSelector('.item-233')->click();
-=======
         $this->byCssSelector('.item-312')->click();
->>>>>>> 3f0b362416d86ca1551779cf618b6c7403d559ba
 
         $this->byId('modlgn-username')->value('Brobak');
         $this->byId('modlgn-passwd')->value('1234');
@@ -78,11 +66,7 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
         $this->url('index.php');
         $this->timeouts()->implicitWait(25000);
 
-<<<<<<< HEAD
-        $this->byCssSelector(".item-233")->click();
-=======
         $this->byCssSelector(".item-233")->submit();
->>>>>>> 3f0b362416d86ca1551779cf618b6c7403d559ba
         $this->timeouts()->implicitWait(15000);
 
         $this->byId('username')->value('Brobak');
