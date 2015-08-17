@@ -17,16 +17,12 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
         array(
             "name" => "Chrome",
             "browserName" => "chrome",
-        ),
-        array(
-            "name" => "Internet Explorer",
-            "browserName" => "internet explorer",
-        ),
+        )
     );
 
     public function setUp(){
         parent::setUp();
-        $this->setHost('localhost');
+        $this->setHost('home.brocode.dk');
         $this->setPort(4444);
         $this->setBrowserUrl('http://localhost/JoomlaTest/');
         //$this->web_driver = new WebDriver();
@@ -48,7 +44,7 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
     public function testLogin1(){
 
         $this->url('index.php');
-        $this->byCssSelector('.item-312')->click();
+        $this->byCssSelector('.item-233')->click();
 
         $this->byId('modlgn-username')->value('Brobak');
         $this->byId('modlgn-passwd')->value('1234');
@@ -66,7 +62,7 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
         $this->url('index.php');
         $this->timeouts()->implicitWait(25000);
 
-        $this->byCssSelector(".item-233")->submit();
+        $this->byCssSelector(".item-233")->click();
         $this->timeouts()->implicitWait(15000);
 
         $this->byId('username')->value('Brobak');
