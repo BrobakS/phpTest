@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<phpunit bootstrap="tests/bootstrap.php"
-         backupGlobals="false"
-         backupStaticAttributes="false"
-         strict="true"
-         verbose="true">
-       
-  <testsuites>
-    <testsuite name="phpTest">
-      <directory suffix="Test.php">JoomlaTest/Tests/UnitTests/</directory>
-=======
 <phpunit
 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -39,7 +28,6 @@
   <testsuites>
     <testsuite name="phpTest">
       <directory suffix="Test.php">tests/UnitTests/</directory>
->>>>>>> 3f0b362416d86ca1551779cf618b6c7403d559ba
     </testsuite>
   </testsuites>
 
@@ -53,12 +41,6 @@
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
       <directory suffix=".php">src</directory>
-<<<<<<< HEAD
-      <exclude>
-        <file>src/bootstrap.php</file>
-      </exclude>
-=======
->>>>>>> 3f0b362416d86ca1551779cf618b6c7403d559ba
     </whitelist>
   </filter>
 </phpunit>

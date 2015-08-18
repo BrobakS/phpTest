@@ -33,7 +33,7 @@
          description="Performs static analysis (executing the tools in parallel), runs the tests, and generates project documentation"/>
 
  <target name="quick-build"
-         depends="prepare,lint,phpunit-no-coverage"
+         depends="prepare,lint"
          description="Performs a lint check and runs the tests (without generating code coverage reports)"/>
 
  <target name="static-analysis"
@@ -119,22 +119,7 @@
   <property name="phpunit.done" value="true"/>
  </target>
 
- <target name="phpunit-no-coverage"
-         unless="phpunit.done"
-         depends="prepare"
-         description="Run unit tests with PHPUnit (without generating code coverage reports)">
 
-  
-  <exec executable="phpunit" failonerror="true" taskname="phpunit">
-   <arg value="--configuration"/>
-   <arg path="${basedir}/build/phpunit.xml"/>
-   <arg value="--no-coverage"/>
-   <arg value="--process-isolation"/>
-   
-  </exec>
-
-  <property name="phpunit.done" value="true"/>
- </target>
 
  <target name="-check-failure">
   <fail message="PHPUnit did not finish successfully">
