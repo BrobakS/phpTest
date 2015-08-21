@@ -79,12 +79,12 @@
   <apply executable="php" taskname="lint">
    <arg value="-l" />
 
-   <fileset dir="${basedir}/src">
+   <fileset dir="${basedir}/build/src">
     <include name="**/*.php" />
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/src/tests">
+   <fileset dir="${basedir}/build/src/tests">
     <include name="**/*.php" />
     <modified />
    </fileset>
@@ -98,8 +98,8 @@
          description="Measure project size using PHPLOC and print human readable output. Intended for usage on the command line.">
   <exec executable="${phploc}" taskname="phploc">
    <arg value="--count-tests" />
-   <arg path="${basedir}/src" />
-   <arg path="${basedir}/tests" />
+   <arg path="${basedir}/build/src" />
+   <arg path="${basedir}/build/tests" />
   </exec>
 
   <property name="phploc.done" value="true"/>
