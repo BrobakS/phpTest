@@ -39,7 +39,7 @@
 
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
-      <directory suffix=".php">tests</directory>
+      <directory suffix=".php">src</directory>
     </whitelist>
   </filter>
 </phpunit>
