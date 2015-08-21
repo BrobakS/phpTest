@@ -10,17 +10,17 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
 {
 
     public static $browsers = array(
-        array(
+        /**array(
         "name" => "Firefox",
         "browserName" => "firefox",
         ),array(
             "name" => "Chrome",
             "browserName" => "chrome",
-        ),/**
+        ),*/
         array(
         "name" => "Internet Explorer",
         "browserName" => "internet explorer",
-        ),*/
+        ),
     );
 
     public function setUp(){

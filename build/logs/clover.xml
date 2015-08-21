@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1440143889">
-  <project timestamp="1440143889">
+<coverage generated="1440145284">
+  <project timestamp="1440145284">
     <package name="mySpace">
       <file name="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\Classes/MyClass.php">
         <class name="MyClass" namespace="mySpace">
