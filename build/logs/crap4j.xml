@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crap_result>
+  <project/>
+  <timestamp>2015-08-21 09:58:09</timestamp>
+  <stats>
+    <name>Method Crap Stats</name>
+    <methodCount>4</methodCount>
+    <crapMethodCount>0</crapMethodCount>
+    <crapLoad>0</crapLoad>
+    <totalCrap>4</totalCrap>
+    <crapMethodPercent>0</crapMethodPercent>
+  </stats>
+  <methods>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass</className>
+      <methodName>sum</methodName>
+      <methodSignature>sum($x, $y)</methodSignature>
+      <fullMethod>sum($x, $y)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass</className>
+      <methodName>multiply</methodName>
+      <methodSignature>multiply($x, $y)</methodSignature>
+      <fullMethod>multiply($x, $y)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass</className>
+      <methodName>half</methodName>
+      <methodSignature>half($x)</methodSignature>
+      <fullMethod>half($x)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass</className>
+      <methodName>double</methodName>
+      <methodSignature>double($x)</methodSignature>
+      <fullMethod>double($x)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+  </methods>
+</crap_result>

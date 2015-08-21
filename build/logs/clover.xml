@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1440143889">
+  <project timestamp="1440143889">
+    <package name="mySpace">
+      <file name="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\Classes/MyClass.php">
+        <class name="MyClass" namespace="mySpace">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+        </class>
+        <line num="14" type="method" name="sum" crap="1" count="5"/>
+        <line num="15" type="stmt" count="5"/>
+        <line num="18" type="method" name="multiply" crap="1" count="4"/>
+        <line num="19" type="stmt" count="4"/>
+        <line num="22" type="method" name="half" crap="1" count="5"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="26" type="method" name="double" crap="1" count="3"/>
+        <line num="27" type="stmt" count="3"/>
+        <metrics loc="28" ncloc="22" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+      </file>
+    </package>
+    <metrics files="1" loc="28" ncloc="22" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+  </project>
+</coverage>
