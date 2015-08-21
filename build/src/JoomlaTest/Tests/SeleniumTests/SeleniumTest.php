@@ -27,6 +27,7 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
         parent::setUp();
         $this->setHost('home.brocode.dk');
         $this->setPort(4444);
+        $this->setBrowser("internet explorer");
         $this->setBrowserUrl('http://localhost:9090/JoomlaTestCodeCeption/');
     }
     public function testSearch1(){
