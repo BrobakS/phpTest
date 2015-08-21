@@ -10,10 +10,10 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
 {
 
     public static $browsers = array(
-        array(
-        "name" => "Firefox",
-        "browserName" => "firefox",
-        ),array(
+        /**array(
+            "name" => "Firefox",
+            "browserName" => "firefox",
+        ),*/array(
             "name" => "Chrome",
             "browserName" => "chrome",
         ),/**
@@ -43,16 +43,16 @@ class SeleniumTests2 extends PHPUnit_Extensions_Selenium2TestCase
     public function testLogin(){
         $this->prepareSession()->currentWindow()->maximize();
         $this->url('index.php');
-        $this->byCssSelector(".item-233")->click(); //klik på login knappen
+        $this->byCssSelector(".item-233")->click(); //klik pÃ¥ login knappen
 
         $this->byId('username')->value('Brobak'); //Udfyld login navn
         $this->byId('password')->value('1234');   //Udfyld password
-        $this->byCssSelector('.form-validate')->submit(); //Tryk på login knappen
+        $this->byCssSelector('.form-validate')->submit(); //Tryk pÃ¥ login knappen
 
-        $this->byCssSelector('.btn-group')->click(); //Klik på Edit profile
+        $this->byCssSelector('.btn-group')->click(); //Klik pÃ¥ Edit profile
         $this->byId('jform_name')->clear();     //Ryd navn feltet
         $this->byId('jform_name')->value('New Name'); //Udfyld navn feltet ned New name
-        $this->byId('member-profile')->submit();  //Tryk på submit knappen
+        $this->byId('member-profile')->submit();  //Tryk pÃ¥ submit knappen
 
         $alert = $this->byCssSelector('.alert-message')->text(); //Gem hvad der bliver skrevet i alert feltet
 
