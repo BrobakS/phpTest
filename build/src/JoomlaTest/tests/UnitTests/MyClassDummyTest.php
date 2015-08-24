@@ -28,4 +28,5 @@ class MyClassDummyTest extends \PHPUnit_Framework_TestCase
         $expectedResult = false;
         $this->assertEquals($expectedResult, $result, "Testing dummy with 6 expects a true return");
     }
+    
 }

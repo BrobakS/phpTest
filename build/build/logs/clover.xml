@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1440400508">
-  <project timestamp="1440400508">
+<coverage generated="1440404868">
+  <project timestamp="1440404868">
     <package name="mySpace">
       <file name="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\Classes/MyClass.php">
         <class name="MyClass" namespace="mySpace">
-          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+          <metrics methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="8" elements="14" coveredelements="12"/>
         </class>
         <line num="14" type="method" name="sum" crap="1" count="5"/>
         <line num="15" type="stmt" count="5"/>
@@ -14,9 +14,15 @@
         <line num="23" type="stmt" count="5"/>
         <line num="26" type="method" name="double" crap="1" count="3"/>
         <line num="27" type="stmt" count="3"/>
-        <metrics loc="28" ncloc="22" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+        <line num="30" type="method" name="dummy" crap="3.07" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="0"/>
+        <metrics loc="38" ncloc="32" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="8" elements="14" coveredelements="12"/>
       </file>
     </package>
-    <metrics files="1" loc="28" ncloc="22" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
+    <metrics files="1" loc="38" ncloc="32" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="8" elements="14" coveredelements="12"/>
   </project>
 </coverage>

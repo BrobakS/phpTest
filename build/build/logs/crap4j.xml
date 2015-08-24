@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2015-08-24 09:15:08</timestamp>
+  <timestamp>2015-08-24 10:27:48</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>4</methodCount>
+    <methodCount>5</methodCount>
     <crapMethodCount>0</crapMethodCount>
     <crapLoad>0</crapLoad>
-    <totalCrap>4</totalCrap>
+    <totalCrap>7.07</totalCrap>
     <crapMethodPercent>0</crapMethodPercent>
   </stats>
   <methods>
@@ -53,6 +53,17 @@
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass</className>
+      <methodName>dummy</methodName>
+      <methodSignature>dummy($input)</methodSignature>
+      <fullMethod>dummy($input)</fullMethod>
+      <crap>3.07</crap>
+      <complexity>3</complexity>
+      <coverage>80</coverage>
       <crapLoad>0</crapLoad>
     </method>
   </methods>
