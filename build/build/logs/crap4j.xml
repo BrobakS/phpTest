@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2015-08-24 10:41:55</timestamp>
+  <timestamp>2015-08-24 11:05:00</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>5</methodCount>
+    <methodCount>8</methodCount>
     <crapMethodCount>0</crapMethodCount>
     <crapLoad>0</crapLoad>
-    <totalCrap>7.07</totalCrap>
+    <totalCrap>16.07</totalCrap>
     <crapMethodPercent>0</crapMethodPercent>
   </stats>
   <methods>
@@ -64,6 +64,39 @@
       <crap>3.07</crap>
       <complexity>3</complexity>
       <coverage>80</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass2</className>
+      <methodName>dimSum</methodName>
+      <methodSignature>dimSum()</methodSignature>
+      <fullMethod>dimSum()</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass2</className>
+      <methodName>sumOfOrders</methodName>
+      <methodSignature>sumOfOrders($listOfProducts)</methodSignature>
+      <fullMethod>sumOfOrders($listOfProducts)</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>mySpace</package>
+      <className>MyClass2</className>
+      <methodName>avgPriceOfProdInOrders</methodName>
+      <methodSignature>avgPriceOfProdInOrders($listOfProducts)</methodSignature>
+      <fullMethod>avgPriceOfProdInOrders($listOfProducts)</fullMethod>
+      <crap>6</crap>
+      <complexity>2</complexity>
+      <coverage>0</coverage>
       <crapLoad>0</crapLoad>
     </method>
   </methods>
