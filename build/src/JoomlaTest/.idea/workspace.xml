@@ -57,8 +57,8 @@
       <file leaf-file-name="MyClassDummyTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/UnitTests/MyClassDummyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6896552">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.7126437">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -676,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/UnitTests/MyClassDummyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6896552">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.7126437">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
