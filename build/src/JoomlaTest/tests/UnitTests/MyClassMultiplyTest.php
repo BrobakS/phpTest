@@ -6,7 +6,7 @@
  * Time: 08:24
  */
 namespace mySpace;
-require_once(__DIR__."/../../src/JoomlaTest/Classes/MyClass.php");
+require_once(__DIR__."/../../Classes/MyClass.php");
 class MyClassMultiplyTest extends \PHPUnit_Framework_TestCase
 {
     private $testSubject;
