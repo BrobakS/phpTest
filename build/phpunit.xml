@@ -26,7 +26,7 @@
        
   <testsuites>
     <testsuite name="phpTest">
-      <directory suffix="Test.php">tests/</directory>
+      <directory suffix="Test.php">tests/UnitTests/</directory>
     </testsuite>
   </testsuites>
 
