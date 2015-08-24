@@ -13,11 +13,19 @@ class MyClassDummyTest extends \PHPUnit_Framework_TestCase
     public function setUp(){
         $this->testSubject = new MyClass();
     }
-    public function testDummyWith5()
+    public function testDummyWith3()
     {
         $var = 3;
         $result = $this->testSubject->dummy($var);
         $expectedResult = true;
         $this->assertEquals($expectedResult, $result, "Testing dummy with 3 expects a true return");
+    }
+
+    public function testDummyWith6()
+    {
+        $var = 6;
+        $result = $this->testSubject->dummy($var);
+        $expectedResult = true;
+        $this->assertEquals($expectedResult, $result, "Testing dummy with 6 expects a true return");
     }
 }
