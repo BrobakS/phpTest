@@ -28,8 +28,10 @@ class MyClass
     }
 
     function dummy($input){
-        if(input < 5)
+        if(input < 5){
             return true;
-        return false;
+        }else{
+            return false;
+        }
     }
 }

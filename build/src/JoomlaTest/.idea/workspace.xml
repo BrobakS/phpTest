@@ -44,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyClass.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyClass.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/MyClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.62069">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.6666667">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyClassDummyTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyClassDummyTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/UnitTests/MyClassDummyTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41379312">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state vertical-scroll-proportion="-15.172414">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/../tests/SeleniumTests/SeleniumTest.php" />
         <option value="$PROJECT_DIR$/Tests/SeleniumTests/SeleniumTest.php" />
         <option value="$PROJECT_DIR$/tests/SeleniumTests/SeleniumTest.php" />
-        <option value="$PROJECT_DIR$/Classes/MyClass.php" />
         <option value="$PROJECT_DIR$/tests/UnitTests/MyClassDummyTest.php" />
+        <option value="$PROJECT_DIR$/Classes/MyClass.php" />
       </list>
     </option>
   </component>
@@ -656,14 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/MyClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.62069">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/UnitTests/MyClassDoubleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.827587">
@@ -676,11 +668,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/UnitTests/MyClassDummyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41379312">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state vertical-scroll-proportion="-15.172414">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/MyClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
