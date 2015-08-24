@@ -32,4 +32,9 @@ class MyClass2
         return $res/sizeof($listOfProducts);
     }
 
+    function priceOfFirstItemInList($listOfProducts){
+        $res = array_values($listOfProducts)[0];
+        return $res;
+    }
+
 }
