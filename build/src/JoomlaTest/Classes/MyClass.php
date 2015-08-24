@@ -27,7 +27,9 @@ class MyClass
         return ($x * 2);
     }
 
-    function dummy(){
-        return true;
+    function dummy($input){
+        if(input < 5)
+            return true;
+        return false;
     }
 }
