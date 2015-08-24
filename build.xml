@@ -84,7 +84,7 @@
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/build/tests">
+   <fileset dir="${basedir}/build/src/JoomlaTest/tests">
     <include name="**/*.php" />
     <modified />
    </fileset>
@@ -99,7 +99,7 @@
   <exec executable="${phploc}" taskname="phploc">
    <arg value="--count-tests" />
    <arg path="${basedir}/build/src" />
-   <arg path="${basedir}/build/tests" />
+   <arg path="${basedir}/build/src/JoomlaTest/tests" />
   </exec>
 
   <property name="phploc.done" value="true"/>
