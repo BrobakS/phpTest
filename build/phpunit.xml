@@ -39,7 +39,7 @@
 
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
-      <directory suffix=".php">src</directory>
+      <directory suffix=".php">src/JoomlaTest/Classes</directory>
     </whitelist>
   </filter>
 </phpunit>

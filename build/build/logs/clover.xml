@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1439385116">
-  <project timestamp="1439385116">
+<coverage generated="1440396262">
+  <project timestamp="1440396262">
     <package name="mySpace">
-      <file name="C:\xampp\htdocs\phpTest\src\JoomlaTest\Classes/MyClass.php">
+      <file name="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\Classes/MyClass.php">
         <class name="MyClass" namespace="mySpace">
           <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="8" coveredelements="8"/>
         </class>
