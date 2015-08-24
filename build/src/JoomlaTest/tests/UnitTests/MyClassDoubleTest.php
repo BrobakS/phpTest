@@ -34,4 +34,5 @@ class MyClassDoubleTest extends \PHPUnit_Framework_TestCase
         $expectedResult = -8;
         $this->assertEquals($expectedResult, $result, "Doubling the value of -4 shoudl result in -8");
     }
+    
 }
