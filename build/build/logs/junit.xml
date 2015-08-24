@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="phpTest" tests="19" assertions="19" failures="0" errors="0" time="0.345407">
-    <testsuite name="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.059024">
-      <testcase name="testDoubleWithTwoPositiveNumbers" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" line="16" assertions="1" time="0.018050"/>
-      <testcase name="testDouble0" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" line="23" assertions="1" time="0.016071"/>
-      <testcase name="testDoubleNegative" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" line="30" assertions="1" time="0.024903"/>
+  <testsuite name="phpTest" tests="19" assertions="19" failures="1" errors="0" time="0.324603">
+    <testsuite name="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.048596">
+      <testcase name="testDoubleWithTwoPositiveNumbers" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" line="16" assertions="1" time="0.016510"/>
+      <testcase name="testDouble0" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" line="23" assertions="1" time="0.016163"/>
+      <testcase name="testDoubleNegative" class="mySpace\MyClassDoubleTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDoubleTest.php" line="30" assertions="1" time="0.015923"/>
     </testsuite>
-    <testsuite name="mySpace\MyClassDummyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.047042">
-      <testcase name="testDummyWith3" class="mySpace\MyClassDummyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php" line="16" assertions="1" time="0.026763"/>
-      <testcase name="testDummyWith6" class="mySpace\MyClassDummyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php" line="24" assertions="1" time="0.020279"/>
+    <testsuite name="mySpace\MyClassDummyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php" tests="2" assertions="2" failures="1" errors="0" time="0.043928">
+      <testcase name="testDummyWith3" class="mySpace\MyClassDummyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php" line="16" assertions="1" time="0.016159"/>
+      <testcase name="testDummyWith6" class="mySpace\MyClassDummyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php" line="24" assertions="1" time="0.027769">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">mySpace\MyClassDummyTest::testDummyWith6
+Testing dummy with 6 expects a true return
+Failed asserting that false matches expected true.
+
+C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassDummyTest.php:29
+</failure>
+      </testcase>
     </testsuite>
-    <testsuite name="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.066216">
-      <testcase name="testMultiplyPositiveWithPositive" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="16" assertions="1" time="0.016411"/>
-      <testcase name="testMultiplyPositiveWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="24" assertions="1" time="0.016394"/>
-      <testcase name="testMultiplyZeroWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="32" assertions="1" time="0.016944"/>
-      <testcase name="testMultiplyPositiveWithNegative" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="40" assertions="1" time="0.016467"/>
+    <testsuite name="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.064769">
+      <testcase name="testMultiplyPositiveWithPositive" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="16" assertions="1" time="0.016140"/>
+      <testcase name="testMultiplyPositiveWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="24" assertions="1" time="0.016242"/>
+      <testcase name="testMultiplyZeroWithZero" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="32" assertions="1" time="0.016397"/>
+      <testcase name="testMultiplyPositiveWithNegative" class="mySpace\MyClassMultiplyTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassMultiplyTest.php" line="40" assertions="1" time="0.015990"/>
     </testsuite>
-    <testsuite name="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.085008">
-      <testcase name="testSum2Possitives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="16" assertions="1" time="0.016463"/>
-      <testcase name="testSum0AndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="24" assertions="1" time="0.015952"/>
-      <testcase name="testSumNegativeAndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="32" assertions="1" time="0.016780"/>
-      <testcase name="testSum2Negatives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="40" assertions="1" time="0.018304"/>
-      <testcase name="testSum2BigNumbers" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="48" assertions="1" time="0.017509"/>
+    <testsuite name="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.084075">
+      <testcase name="testSum2Possitives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="16" assertions="1" time="0.016440"/>
+      <testcase name="testSum0AndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="24" assertions="1" time="0.016004"/>
+      <testcase name="testSumNegativeAndAPostive" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="32" assertions="1" time="0.016032"/>
+      <testcase name="testSum2Negatives" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="40" assertions="1" time="0.016191"/>
+      <testcase name="testSum2BigNumbers" class="mySpace\MyClassSumTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassSumTest.php" line="48" assertions="1" time="0.019408"/>
     </testsuite>
-    <testsuite name="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.088117">
-      <testcase name="testHalfPostiveEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="17" assertions="1" time="0.017154"/>
-      <testcase name="testHalf0" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="25" assertions="1" time="0.017241"/>
-      <testcase name="testHalfPositiveUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="33" assertions="1" time="0.015907"/>
-      <testcase name="testHalfNegativeEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="41" assertions="1" time="0.020860"/>
-      <testcase name="testHalfNegativeUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="49" assertions="1" time="0.016955"/>
+    <testsuite name="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.083235">
+      <testcase name="testHalfPostiveEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="17" assertions="1" time="0.016765"/>
+      <testcase name="testHalf0" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="25" assertions="1" time="0.017731"/>
+      <testcase name="testHalfPositiveUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="33" assertions="1" time="0.016305"/>
+      <testcase name="testHalfNegativeEven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="41" assertions="1" time="0.016238"/>
+      <testcase name="testHalfNegativeUneven" class="mySpace\MyClassTest" file="C:\xampp\htdocs\phpTest\build\src\JoomlaTest\tests\UnitTests\MyClassTest.php" line="49" assertions="1" time="0.016196"/>
     </testsuite>
   </testsuite>
 </testsuites>
